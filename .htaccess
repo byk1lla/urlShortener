@@ -1,0 +1,13 @@
+RewriteEngine On
+Options All -Indexes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ index.php?page=$1 [QSA,L]
+RewriteRule ^r/([^/]+)/?$ index.php?page=r&link=$1 [QSA,L]
+RewriteRule ^api/(.+)$ src/api/$1.api.php [L]
+RewriteRule ^error/(.+)$ src/inc/error/$1.error.php
+ErrorDocument 400 /src/inc/error/400.error.php
+ErrorDocument 401 /src/inc/error/401.error.php
+ErrorDocument 403 /src/inc/error/403.error.php
+ErrorDocument 404 /src/inc/error/404.error.php
+ErrorDocument 500 /src/inc/error/500.error.php
