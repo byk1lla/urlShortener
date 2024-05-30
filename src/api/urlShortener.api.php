@@ -16,7 +16,7 @@ try{
                 $response['data'] = $code;
             }else{
                 $response['error'] = true;
-                $response['message'] = "Invalid URL";
+                $response['message'] = "URL Girmeniz Gerekiyor";
             }
         }
         else{
