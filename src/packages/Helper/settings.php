@@ -1,7 +1,7 @@
 <?php
 
 return array (
-  'bakim' => false,
+  'bakim' => true,
   'title' => 'URL Kısaltıcı',
   'PROJECT_NAME' => 'UrlShortener',
   'DB' => 

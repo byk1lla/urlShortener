@@ -14,7 +14,7 @@ request("/api/redirect", {"url": link})
                     window.location.href = response.data;
                 }
             ,3000)
-        }
+        } 
     })
 
     .fail(function (jqXHR, textStatus, errorThrown) {

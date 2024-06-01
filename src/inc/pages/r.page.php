@@ -18,7 +18,7 @@
     <div hidden id="error">
     <h1 class="text-3xl font-extrabold text-red-700 mb-6"><i class="fas fa-xmark text-red-700"></i> Girdiğiniz Link Geçersiz! </h1>
             <p id="message" class="text-lg mb-6 text-gray-900">
-            Lütfen Geçerli Bir Link Girin veya <a class="font-semibold text-red-600" href="../urlShrotener">Yenisini oluşturun</a>.<br>
+            Lütfen Geçerli Bir Link Girin veya <a class="font-semibold text-red-600 hover:text-red-900" href="../urlShortener">Yenisini oluşturun</a>.<br>
             </p>
     </div>
 </div>
